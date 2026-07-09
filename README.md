@@ -1,9 +1,9 @@
 # Atividade de Recuperação: Astronautas — Recursos Extras
 
 Este projeto parte do sistema da Unidade 1 e adiciona os recursos descritos na
-atividade de recuperação, organizados nas duas camadas propostas.
+atividade de recuperação
 
-## Camada 1 — Funções dos astronautas (herança e polimorfismo)
+## Camada 1 — Funções dos astronautas 
 
 - `Astronauta` passou de `struct` para `class` base, com o método virtual
   `funcao()` (retorna `"Astronauta"` por padrão) e destrutor virtual.
@@ -35,13 +35,6 @@ atividade de recuperação, organizados nas duas camadas propostas.
 - `LISTAR_VOOS` agora também mostra a nave associada a cada voo (ou
   "(nenhuma)", quando não há).
 
-## O que continua igual da Unidade 1
-
-Toda a máquina de estados do voo (planejado, em curso, finalizado com
-sucesso, finalizado com explosão), o cadastro de voos, adição/remoção de
-tripulantes, explosão e finalização de voos, e as regras de vivo/disponível
-continuam funcionando exatamente como antes — apenas adaptadas para o uso de
-ponteiros (`->`) por causa da herança.
 
 ## Como compilar e executar
 
